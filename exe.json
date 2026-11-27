@@ -1,0 +1,29 @@
+{
+  "nome": "Pubblica",
+  "versione": "1.0",
+  "tipo": "html",
+  "avvio": "avvia_app.py",
+  "pagina": "index.html",
+  "console": false,
+  "unFile": true,
+  "icona": "icona.png",
+  "dati": [
+    "progetto/.nojekyll",
+    "progetto/docs/java-apk-spec.md",
+    "progetto/icone/icona-192.png",
+    "progetto/icone/icona-512.png",
+    "progetto/icone/icona-maskable-512.png",
+    "progetto/index.html",
+    "progetto/manifest.webmanifest",
+    "progetto/sw.js",
+    "progetto/versione.js",
+    "progetto/versione.json"
+  ],
+  "cartellaDati": "app",
+  "nascosti": [
+    "webview.platforms.winforms",
+    "webview.platforms.edgechromium",
+    "clr"
+  ],
+  "generato": "Pubblica · by Lollo ®2026"
+}

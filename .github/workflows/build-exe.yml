@@ -40,6 +40,16 @@ jobs:
       - name: Compila EXE
         run: python crea_exe.py
 
+      - name: Installa Inno Setup
+        if: hashFiles('installer.iss') != ''
+        shell: pwsh
+        run: choco install innosetup --yes --no-progress
+
+      - name: Compila installer
+        if: hashFiles('installer.iss') != ''
+        shell: pwsh
+        run: '& "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe" installer.iss'
+
       - name: Controllo del risultato
         run: Get-ChildItem uscita | Format-Table Name, Length
 

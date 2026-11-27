@@ -1,0 +1,2 @@
+# Librerie installate prima della compilazione (una per riga) · Pubblica
+pywebview>=5,<6
